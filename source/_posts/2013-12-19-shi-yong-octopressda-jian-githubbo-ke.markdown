@@ -54,6 +54,13 @@ bundle exec rake deploy
 #如果想要在本地预览博客可以执行下面的命令, 然后浏览器输入 http://localhost:4000
 bundle exec rake preview
 ```
+
+把source也push到git
+
+``` coffeescript code
+git push origin source
+```
+
 现在可以访问`http://username.github.io`了。注意：有大概10分钟延迟。
 
 到此我们的博客就搭建完了。
