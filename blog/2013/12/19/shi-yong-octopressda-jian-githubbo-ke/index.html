@@ -191,6 +191,25 @@
 
 <p><code>http://username.github.io</code>(你的github pages地址) &mdash;&mdash;&ndash; <code>204.232.175.78</code>(github的ip)</p>
 
+<p>还要添加</p>
+
+<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="nx">echo</span> <span class="s">&#39;your-domain.com&#39;</span> <span class="o">&gt;&gt;</span> <span class="nx">source</span><span class="o">/</span><span class="nx">CNAME</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">git</span> <span class="nx">add</span> <span class="p">.</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">git</span> <span class="nx">commit</span> <span class="o">-</span><span class="nx">m</span> <span class="s">&#39;新增CNAME文件&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">git</span> <span class="nx">push</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
 <p>设置好之后就可以用我们自己的域名访问博客了。</p>
 
 <h3>6. 第三方的插件</h3>
