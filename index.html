@@ -9,10 +9,14 @@
   <meta name="author" content="姜晓">
 
   
-  <meta name="description" content="这次介绍一款ios的 包管理工具 CocoaPods，类似rubygem，我试用了一下还不错，附上使用方法： 1.要安装ruby和rubygem,我本地ruby版本是2.0.0-p247，gem版本2.0.6 2.安装CocoaPods: code1
+  <meta name="description" content="这篇文章介绍一下如何给blog添加豆瓣和微博的侧边栏 1.豆瓣侧边栏
+首先 在 source/_includes/post/adides 中创建 douban.html,内容如下: code1
 2
 3
-gem install &hellip;">
+4
+&lt;section&gt;
+&lt;h2&gt;我看过的&lt;/h2&gt;
+&lt; &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -69,6 +73,102 @@ gem install &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/10/wei-bo-he-dou-ban-ce-bian-lan/">给blog添加豆瓣和微博侧边栏</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-10T14:20:51+08:00" pubdate data-updated="true">2014-01-10</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>这篇文章介绍一下如何给blog添加豆瓣和微博的侧边栏</p>
+
+<p>1.豆瓣侧边栏
+首先 在 <code>source/_includes/post/adides</code> 中创建 <code>douban.html</code>,内容如下:</p>
+
+<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="o">&lt;</span><span class="nx">section</span><span class="o">&gt;</span>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">h2</span><span class="o">&gt;</span><span class="err">我看过的</span><span class="o">&lt;/</span><span class="nx">h2</span><span class="o">&gt;</span>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span> <span class="o">&lt;/</span><span class="nx">div</span><span class="o">&gt;</span>
+</span><span class='line'><span class="o">&lt;/</span><span class="nx">section</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>上面代码div中的内容要在这里获取,点击<a href="http://www.douban.com/service/badgemakerjs">豆瓣侧边栏</a>（记得登陆豆瓣账号）
+把那段 <code>script</code> 代码粘贴过来就可以了。</p>
+
+<p>2.微博侧边栏</p>
+
+<p>首先 在 <code>source/_includes/post/adides</code> 中创建 <code>weibo.html</code>,内容如下:</p>
+
+<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="k">if</span> <span class="nx">site</span><span class="p">.</span><span class="nx">weibo_user</span> <span class="o">%</span><span class="p">}</span>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">section</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="err">新浪微博</span><span class="o">&lt;/</span><span class="nx">h1</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="o">&lt;</span><span class="nx">ul</span> <span class="nx">id</span><span class="o">=</span><span class="s">&quot;weibo&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;</span><span class="nx">li</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;/</span><span class="nx">li</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="o">&lt;/</span><span class="nx">ul</span><span class="o">&gt;</span>
+</span><span class='line'><span class="o">&lt;/</span><span class="nx">section</span><span class="o">&gt;</span>
+</span><span class='line'><span class="p">{</span><span class="o">%</span> <span class="nx">endif</span> <span class="o">%</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>li中的内容在这里获取,点击<a href="http://weibo.com/tool/">微博侧边栏</a>（记得登陆微博账号）
+把 <code>iframe</code> 中的代码粘贴过来。</p>
+
+<p>然后在 <code>_config.yml</code> 中添加:</p>
+
+<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="c1"># Sina Weibo</span>
+</span><span class='line'><span class="nv">weibo_user: </span><span class="nx">xxxxxxxx</span> <span class="c1">#user id (not user name)</span>
+</span><span class='line'><span class="nv">weibo_verifier: </span><span class="nx">xxxxxx</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><code>weibo_user</code> 是iframe中url的uid参数的值</p>
+
+<p><code>weibo_verifier</code> 是iframe中url的verifier参数的值</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -348,6 +448,13 @@ ISO, T（快门）, F（光圈）
 </span></code></pre></td></tr></table></div></figure>
 
 
+<p>把source也push到git</p>
+
+<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="nx">git</span> <span class="nx">push</span> <span class="nx">origin</span> <span class="nx">source</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
 <p>现在可以访问<code>http://username.github.io</code>了。注意：有大概10分钟延迟。</p>
 
 <p>到此我们的博客就搭建完了。</p>
@@ -510,6 +617,10 @@ ISO, T（快门）, F（光圈）
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/01/10/wei-bo-he-dou-ban-ce-bian-lan/">给blog添加豆瓣和微博侧边栏</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/01/08/cocoapods/">IOS 包管理工具 CocoaPods</a>
       </li>
     
@@ -523,10 +634,6 @@ ISO, T（快门）, F（光圈）
     
       <li class="post">
         <a href="/blog/2013/12/19/shi-yong-octopressda-jian-githubbo-ke/">使用octopress搭建github博客</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/12/13/my-first-blog/">我的第一篇博客</a>
       </li>
     
   </ul>
