@@ -4,7 +4,7 @@
   <title><![CDATA[姜晓的博客]]></title>
   <link href="http://jiangxiaopeng.github.io/atom.xml" rel="self"/>
   <link href="http://jiangxiaopeng.github.io/"/>
-  <updated>2014-01-10T15:32:02+08:00</updated>
+  <updated>2014-01-16T15:44:09+08:00</updated>
   <id>http://jiangxiaopeng.github.io/</id>
   <author>
     <name><![CDATA[姜晓]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[把乐带回家2014]]></title>
+    <link href="http://jiangxiaopeng.github.io/blog/2014/01/16/ba-le-dai-hui-jia-2014/"/>
+    <updated>2014-01-16T15:14:38+08:00</updated>
+    <id>http://jiangxiaopeng.github.io/blog/2014/01/16/ba-le-dai-hui-jia-2014</id>
+    <content type="html"><![CDATA[<p>祝福大家： 新年快乐， 身体健康， 工作顺利， 家庭幸福， 心想事成！ 马上发大财～～～～～</p>
+
+<p><video width='640' height='320' preload='none' controls poster='http://www.wdy.com/data/uploads/2014/01/09/1865152cdfd953a77b.jpg'><source src='http://114.80.184.44/youku/6573DA38B39438165449474355/030020010052D4A88B184907D654EC12919E87-F080-66DB-F65B-BC9DA7F81540.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></video></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[给blog添加豆瓣和微博侧边栏]]></title>
