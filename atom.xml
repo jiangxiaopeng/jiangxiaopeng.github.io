@@ -4,7 +4,7 @@
   <title><![CDATA[姜晓的博客]]></title>
   <link href="http://jiangxiaopeng.github.io/atom.xml" rel="self"/>
   <link href="http://jiangxiaopeng.github.io/"/>
-  <updated>2014-04-28T16:08:41+08:00</updated>
+  <updated>2014-04-28T16:49:57+08:00</updated>
   <id>http://jiangxiaopeng.github.io/</id>
   <author>
     <name><![CDATA[姜晓]]></name>
@@ -14,16 +14,41 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Xcode5 模拟器home键]]></title>
-    <link href="http://jiangxiaopeng.github.io/blog/2014/04/22/ios7-home/"/>
-    <updated>2014-04-22T11:12:29+08:00</updated>
-    <id>http://jiangxiaopeng.github.io/blog/2014/04/22/ios7-home</id>
-    <content type="html"><![CDATA[<p>command+shift+h</p>
+    <title type="html"><![CDATA[Objective-C Literals]]></title>
+    <link href="http://jiangxiaopeng.github.io/blog/2014/04/28/objective-c-literals/"/>
+    <updated>2014-04-28T16:45:04+08:00</updated>
+    <id>http://jiangxiaopeng.github.io/blog/2014/04/28/objective-c-literals</id>
+    <content type="html"><![CDATA[<p>Literals 让代码更简洁了！</p>
+
+<p>以前</p>
+
+<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="nv">array = </span><span class="p">[</span><span class="nx">NSArray</span> <span class="nx">arrayWithObjects</span><span class="o">:</span><span class="nx">@</span><span class="s">&quot;a&quot;</span><span class="p">,</span><span class="nx">@</span><span class="s">&quot;b&quot;</span><span class="p">,</span><span class="nx">@</span><span class="s">&quot;c&quot;</span><span class="p">,</span><span class="nx">nil</span><span class="p">];</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>现在</p>
+
+<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="nv">array = </span><span class="nx">@</span><span class="p">[</span><span class="nx">@</span><span class="s">&quot;1&quot;</span><span class="p">,</span><span class="nx">@</span><span class="s">&quot;2&quot;</span><span class="p">,</span><span class="nx">@</span><span class="s">&quot;3&quot;</span><span class="p">];</span>
+</span></code></pre></td></tr></table></div></figure>
+
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[哥本哈根13天减肥法]]></title>
+    <title type="html"><![CDATA[Xcode5 模拟器home键]]></title>
+    <link href="http://jiangxiaopeng.github.io/blog/2014/04/22/ios7-home/"/>
+    <updated>2014-04-22T11:12:29+08:00</updated>
+    <id>http://jiangxiaopeng.github.io/blog/2014/04/22/ios7-home</id>
+    <content type="html"><![CDATA[<p>mark 一下</p>
+
+<p>command+shift+h</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[(转)哥本哈根13天减肥法]]></title>
     <link href="http://jiangxiaopeng.github.io/blog/2014/03/13/ge-ben-ha-gen-jian-fei/"/>
     <updated>2014-03-13T10:46:17+08:00</updated>
     <id>http://jiangxiaopeng.github.io/blog/2014/03/13/ge-ben-ha-gen-jian-fei</id>
