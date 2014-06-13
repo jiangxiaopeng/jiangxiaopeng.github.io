@@ -29,6 +29,7 @@ bundle install
 bundle exec rake install
 
 ```
+<!--more-->
 ### 3. 配置octopress
 
 只需配置 _config.yml文件即可，设置博客的url,title,subtitle,安装第三方插件都是在这里。其中url是必须填写的，这里的url是在github上创建的一个代码仓库地址，首先需要在gitHub上创建一个仓库，并将仓库名称按照这样的方式进行命名：username.github.io，创建好仓库我们执行：
@@ -83,6 +84,16 @@ git push origin source
 
 `http://username.github.io`(你的github pages地址) ----- `204.232.175.78`(github的ip)
 
+还要添加 
+``` coffeescript code
+echo 'your-domain.com' >> source/CNAME
+
+git add .
+
+git commit -m '新增CNAME文件'
+
+git push
+```
 设置好之后就可以用我们自己的域名访问博客了。
 
 ### 6. 第三方的插件

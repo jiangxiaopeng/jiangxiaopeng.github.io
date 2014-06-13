@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Xcode5 模拟器home键"
+date: 2014-04-22 11:12:29 +0800
+comments: true
+categories: 
+---
+
+mark 一下
+
+command+shift+h
