@@ -9,7 +9,9 @@
   <meta name="author" content="姜晓">
 
   
-  <meta name="description" content="祝福大家： 新年快乐， 身体健康， 工作顺利， 家庭幸福， 心想事成！ 马上发大财～～～～～ ">
+  <meta name="description" content="Literals 让代码更简洁了！ 以前 code1
+array = [NSArray arrayWithObjects:@&quot;a&quot;,@&quot;b&quot;,@&quot;c&quot;,nil]; 现在 code1
+array = @[@&quot;1&quot;,@& &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -38,7 +40,7 @@
   <header role="banner"><hgroup>
   <h1><a href="/">姜晓的博客</a></h1>
   
-    <h2>NSLog(@"Hello,world");</h2>
+    <h2>Welcome</h2>
   
 </hgroup>
 
@@ -66,6 +68,141 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/28/objective-c-literals/">Objective-C Literals</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-28T16:45:04+08:00" pubdate data-updated="true">2014-04-28</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Literals 让代码更简洁了！</p>
+
+<p>以前</p>
+
+<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="nv">array = </span><span class="p">[</span><span class="nx">NSArray</span> <span class="nx">arrayWithObjects</span><span class="o">:</span><span class="nx">@</span><span class="s">&quot;a&quot;</span><span class="p">,</span><span class="nx">@</span><span class="s">&quot;b&quot;</span><span class="p">,</span><span class="nx">@</span><span class="s">&quot;c&quot;</span><span class="p">,</span><span class="nx">nil</span><span class="p">];</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>现在</p>
+
+<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="nv">array = </span><span class="nx">@</span><span class="p">[</span><span class="nx">@</span><span class="s">&quot;1&quot;</span><span class="p">,</span><span class="nx">@</span><span class="s">&quot;2&quot;</span><span class="p">,</span><span class="nx">@</span><span class="s">&quot;3&quot;</span><span class="p">];</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/22/ios7-home/">Xcode5 模拟器home键</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-22T11:12:29+08:00" pubdate data-updated="true">2014-04-22</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>mark 一下</p>
+
+<p>command+shift+h</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/13/ge-ben-ha-gen-jian-fei/">(转)哥本哈根13天减肥法</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-13T10:46:17+08:00" pubdate data-updated="true">2014-03-13</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>for a change in your metabolism
+改变你的新陈代谢</p>
+
+<p>This diet must be followed for 13 days, that’s why it’s (quite) difficult, but very efficient.
+这份餐单必须严格坚持13天，这就是其难以坚持，却非常有效的原因。</p>
+
+<p>The diet changes your metabolism, and its effects last for about 2 years. This means that once you have completed the diet you can eat normally and you won’t gain weight. It’s not one of the usual diets, but one that improves &ldquo;burning&rdquo; your calories. The diet is effective even after it’s completion.这份餐单可以改善你的新陈代谢，并持续两年时间。这就意味着一旦你完成该食谱，回复正常饮食也并不会是你复胖。这不是一般的食谱，他能帮助你燃烧更多热量，并在你结束食谱后仍然有效。</p>
+
+<p> </div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/03/13/ge-ben-ha-gen-jian-fei/">继续阅读 &rarr;</a>
+    </footer>
+  
+
+
+    </article>
   
   
     <article>
@@ -445,173 +582,12 @@ ISO, T（快门）, F（光圈）
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h3>3. 配置octopress</h3>
-
-<p>只需配置 _config.yml文件即可，设置博客的url,title,subtitle,安装第三方插件都是在这里。其中url是必须填写的，这里的url是在github上创建的一个代码仓库地址，首先需要在gitHub上创建一个仓库，并将仓库名称按照这样的方式进行命名：username.github.io，创建好仓库我们执行：</p>
-
-<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="c1">#这条命令会帮助我们创建一个_deploy文件夹</span>
-</span><span class='line'><span class="c1">#_deploy文件夹中的内容就是我们要提交到github代码仓库master分支的内容，其实就是我们的博客。期间会要求你输入仓库的url，根据提示，输入即可。</span>
-</span><span class='line'><span class="nx">bundle</span> <span class="nx">exec</span> <span class="nx">rake</span> <span class="nx">setup_github_pages</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>接下来执行:</p>
-
-<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="c1">#这条命令会帮助我们生成博客文件并拷贝的_deploy文件夹下</span>
-</span><span class='line'><span class="nx">bundle</span> <span class="nx">exec</span> <span class="nx">rake</span> <span class="nx">generate</span>
-</span><span class='line'>
-</span><span class='line'><span class="c1">#这条命令会把_deploy文件夹下的内容push到远程代码仓库的master分支</span>
-</span><span class='line'><span class="nx">bundle</span> <span class="nx">exec</span> <span class="nx">rake</span> <span class="nx">deploy</span>
-</span><span class='line'>
-</span><span class='line'><span class="c1">#如果想要在本地预览博客可以执行下面的命令, 然后浏览器输入 http://localhost:4000</span>
-</span><span class='line'><span class="nx">bundle</span> <span class="nx">exec</span> <span class="nx">rake</span> <span class="nx">preview</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>把source也push到git</p>
-
-<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="nx">git</span> <span class="nx">push</span> <span class="nx">origin</span> <span class="nx">source</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>现在可以访问<code>http://username.github.io</code>了。注意：有大概10分钟延迟。</p>
-
-<p>到此我们的博客就搭建完了。</p>
-
-<p><a href="https://help.github.com/categories/20/articles">github pages 官方帮助文档</a></p>
-
-<h3>4. 写博客</h3>
-
-<p>参考：<a href="http://octopress.org/docs/">Octopress Documentation</a></p>
-
-<p>写博客使用的标记语言<a href="http://daringfireball.net/projects/markdown/basics">markdown</a></p>
-
-<h3>5. 绑定自己的域名</h3>
-
-<p>购买域名到<a href="https://www.godaddy.com/">godaddy</a></p>
-
-<p>域名绑定设置里设置两个HOST:</p>
-
-<p>@ &mdash;&mdash; <code>204.232.175.78</code>(github的ip)</p>
-
-<p><code>http://username.github.io</code>(你的github pages地址) &mdash;&mdash;&ndash; <code>204.232.175.78</code>(github的ip)</p>
-
-<p>还要添加</p>
-
-<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="nx">echo</span> <span class="s">&#39;your-domain.com&#39;</span> <span class="o">&gt;&gt;</span> <span class="nx">source</span><span class="o">/</span><span class="nx">CNAME</span>
-</span><span class='line'>
-</span><span class='line'><span class="nx">git</span> <span class="nx">add</span> <span class="p">.</span>
-</span><span class='line'>
-</span><span class='line'><span class="nx">git</span> <span class="nx">commit</span> <span class="o">-</span><span class="nx">m</span> <span class="s">&#39;新增CNAME文件&#39;</span>
-</span><span class='line'>
-</span><span class='line'><span class="nx">git</span> <span class="nx">push</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>设置好之后就可以用我们自己的域名访问博客了。</p>
-
-<h3>6. 第三方的插件</h3>
-
-<p>我只安装了评论插件，用的是国内的<a href="http://duoshuo.com/">多说</a>，比disqus访问速度快，先去多说网注册个帐号，添加站点，获取站点 short_name。</p>
-
-<p>在 _config.yml 中添加:</p>
-
-<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="c1"># duoshuo comments</span>
-</span><span class='line'><span class="nv">duoshuo_comments: </span><span class="kc">true</span>
-</span><span class='line'><span class="nv">duoshuo_short_name: </span><span class="nx">yourname</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>在 <code>source/_includes/post/</code> 中创建 <code>duoshuo.html</code>:</p>
-
-<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="o">&lt;!--</span> <span class="nx">Duoshuo</span> <span class="nx">Comment</span> <span class="nx">BEGIN</span> <span class="o">-</span><span class="nf">-&gt;</span>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">div</span> <span class="k">class</span><span class="o">=</span><span class="s">&quot;ds-thread&quot;</span><span class="o">&gt;&lt;/</span><span class="nx">div</span><span class="o">&gt;</span>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
-</span><span class='line'>  <span class="nx">var</span> <span class="nv">duoshuoQuery = </span><span class="p">{</span><span class="nx">short_name</span><span class="o">:</span><span class="s">&quot;duoshuo_short_name&quot;</span><span class="p">};</span>
-</span><span class='line'>  <span class="p">(</span><span class="nx">function</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>    <span class="nx">var</span> <span class="nv">ds = </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s">&#39;script&#39;</span><span class="p">);</span>
-</span><span class='line'>    <span class="nv">ds.type = </span><span class="s">&#39;text/javascript&#39;</span><span class="p">;</span><span class="nv">ds.async = </span><span class="kc">true</span><span class="p">;</span>
-</span><span class='line'>    <span class="nv">ds.src = </span><span class="s">&#39;http://static.duoshuo.com/embed.js&#39;</span><span class="p">;</span>
-</span><span class='line'>    <span class="nv">ds.charset = </span><span class="s">&#39;UTF-8&#39;</span><span class="p">;</span>
-</span><span class='line'>    <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s">&#39;head&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
-</span><span class='line'>    <span class="o">||</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s">&#39;body&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]).</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">ds</span><span class="p">);</span>
-</span><span class='line'>  <span class="p">})();</span>
-</span><span class='line'><span class="o">&lt;/</span><span class="nx">script</span><span class="o">&gt;</span>
-</span><span class='line'><span class="o">&lt;!--</span> <span class="nx">Duoshuo</span> <span class="nx">Comment</span> <span class="nx">END</span> <span class="o">-</span><span class="nf">-&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>在 <code>source/_layouts/post.html</code> 和 <code>source/_layouts/page.html</code> 中添加:</p>
-
-<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="k">if</span> <span class="nx">site</span><span class="p">.</span><span class="nx">duoshuo_short_name</span> <span class="o">and</span> <span class="nx">site</span><span class="p">.</span><span class="nx">duoshuo_comments</span> <span class="o">==</span> <span class="kc">true</span> <span class="o">and</span> <span class="nx">page</span><span class="p">.</span><span class="nx">comments</span> <span class="o">==</span> <span class="kc">true</span> <span class="o">%</span><span class="p">}</span>
-</span><span class='line'>  <span class="o">&lt;</span><span class="nx">section</span><span class="o">&gt;</span>
-</span><span class='line'>    <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">Comments</span><span class="o">&lt;/</span><span class="nx">h1</span><span class="o">&gt;</span>
-</span><span class='line'>    <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">id</span><span class="o">=</span><span class="s">&quot;comments&quot;</span> <span class="nx">aria</span><span class="o">-</span><span class="nx">live</span><span class="o">=</span><span class="s">&quot;polite&quot;</span><span class="o">&gt;</span><span class="p">{</span><span class="o">%</span> <span class="nx">include</span> <span class="nx">post</span><span class="o">/</span><span class="nx">duoshuo</span><span class="p">.</span><span class="nx">html</span> <span class="o">%</span><span class="p">}</span><span class="o">&lt;/</span><span class="nx">div</span><span class="o">&gt;</span>
-</span><span class='line'>  <span class="o">&lt;/</span><span class="nx">section</span><span class="o">&gt;</span>
-</span><span class='line'><span class="p">{</span><span class="o">%</span> <span class="nx">endif</span> <span class="o">%</span><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>修改 <code>source/_includes/article.html</code>文件:</p>
-
-<figure class='code'><figcaption><span>code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'> <span class="p">{</span><span class="o">%</span> <span class="k">if</span> <span class="nx">site</span><span class="p">.</span><span class="nx">duoshuo_short_name</span> <span class="o">and</span> <span class="nx">page</span><span class="p">.</span><span class="nx">comments</span> <span class="o">!=</span> <span class="kc">false</span> <span class="o">and</span> <span class="nx">post</span><span class="p">.</span><span class="nx">comments</span> <span class="o">!=</span> <span class="kc">false</span> <span class="o">and</span> <span class="nx">site</span><span class="p">.</span><span class="nx">duoshuo_comments</span> <span class="o">==</span> <span class="kc">true</span> <span class="o">%</span><span class="p">}</span>
-</span><span class='line'>          <span class="o">|</span> <span class="o">&lt;</span><span class="nx">a</span> <span class="nx">href</span><span class="o">=</span><span class="s">&quot;</span><span class="err">#</span><span class="s">comments&quot;</span><span class="o">&gt;</span><span class="nx">Comments</span><span class="o">&lt;/</span><span class="nx">a</span><span class="o">&gt;</span>
-</span><span class='line'> <span class="p">{</span><span class="o">%</span> <span class="nx">endif</span> <span class="o">%</span><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>完毕。</p>
-
-<p>还有一些<a href="http://opthemes.com/">主题大全</a></p>
-
-<p>还有很多好看的主题和好玩的插件大家自己研究吧！O(∩_∩)O哈哈~</p>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/12/19/shi-yong-octopressda-jian-githubbo-ke/">继续阅读 &rarr;</a>
+    </footer>
   
 
 
@@ -667,23 +643,23 @@ ISO, T（快门）, F（光圈）
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/04/28/objective-c-literals/">Objective-C Literals</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/22/ios7-home/">Xcode5 模拟器home键</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/13/ge-ben-ha-gen-jian-fei/">(转)哥本哈根13天减肥法</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/01/16/ba-le-dai-hui-jia-2014/">把乐带回家2014</a>
       </li>
     
       <li class="post">
         <a href="/blog/2014/01/10/wei-bo-he-dou-ban-ce-bian-lan/">给blog添加豆瓣和微博侧边栏</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/01/08/cocoapods/">IOS 包管理工具 CocoaPods</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/12/24/she-ying-ji-qiao-2/">摄影技巧2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/12/20/she-ying-ji-qiao/">摄影技巧</a>
       </li>
     
   </ul>
