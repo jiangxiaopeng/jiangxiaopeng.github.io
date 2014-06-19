@@ -4,7 +4,7 @@
   <title><![CDATA[姜晓的博客]]></title>
   <link href="http://jiangxiaopeng.github.io/atom.xml" rel="self"/>
   <link href="http://jiangxiaopeng.github.io/"/>
-  <updated>2014-04-28T16:55:48+08:00</updated>
+  <updated>2014-06-19T16:44:07+08:00</updated>
   <id>http://jiangxiaopeng.github.io/</id>
   <author>
     <name><![CDATA[姜晓]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[新工作]]></title>
+    <link href="http://jiangxiaopeng.github.io/blog/2014/06/19/new-job/"/>
+    <updated>2014-06-19T16:39:06+08:00</updated>
+    <id>http://jiangxiaopeng.github.io/blog/2014/06/19/new-job</id>
+    <content type="html"><![CDATA[<p>mark 一下</p>
+
+<p>新换了工作，同事很多都是90后，呵呵，很好。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Objective-C Literals]]></title>
