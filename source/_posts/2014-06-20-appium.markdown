@@ -1,0 +1,45 @@
+---
+layout: post
+title: "appium ios自动化测试"
+date: 2014-06-20 10:48:32 +0800
+comments: true
+categories: 
+---
+
+安装的时候遇到各种大坑，我要把它记录下来
+
+brew update 
+
+brew upgrade node
+
+brew install node #不要用sudo 安装
+
+npm install -g appium 
+
+npm install wd 
+
+mkdir cucumber-appium
+
+cd cucumber-appium
+
+git clone https://github.com/vkoser/PlainNote
+
+cd PlainNote
+
+xcodebuild -sdk iphonesimulator6.0
+
+vim Gemfile
+
+gem "rest-client"
+
+gem "rspec"
+
+gem "selenium-webdriver"
+
+gem "cucumber"
+
+gem "rspec-expectations"
+
+vim features/plain_note.feature 
+
+可能会用到 brew install https://raw.github.com/Homebrew/homebrew-dupes/master/apple-gcc42.rb
