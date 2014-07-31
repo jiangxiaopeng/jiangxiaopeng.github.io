@@ -4,7 +4,7 @@
   <title><![CDATA[姜晓的博客]]></title>
   <link href="http://jiangxiaopeng.github.io/atom.xml" rel="self"/>
   <link href="http://jiangxiaopeng.github.io/"/>
-  <updated>2014-06-19T16:44:07+08:00</updated>
+  <updated>2014-07-11T13:16:32+08:00</updated>
   <id>http://jiangxiaopeng.github.io/</id>
   <author>
     <name><![CDATA[姜晓]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Appium Ios自动化测试]]></title>
+    <link href="http://jiangxiaopeng.github.io/blog/2014/06/20/appium/"/>
+    <updated>2014-06-20T10:48:32+08:00</updated>
+    <id>http://jiangxiaopeng.github.io/blog/2014/06/20/appium</id>
+    <content type="html"><![CDATA[<p>安装的时候遇到各种大坑，我要把它记录下来</p>
+
+<p>brew update</p>
+
+<p>brew upgrade node</p>
+
+<p>brew install node #不要用sudo 安装</p>
+
+<p>npm install -g appium</p>
+
+<p>npm install wd</p>
+
+<p>mkdir cucumber-appium</p>
+
+<p>cd cucumber-appium</p>
+
+<p>git clone <a href="https://github.com/vkoser/PlainNote">https://github.com/vkoser/PlainNote</a></p>
+
+<p>cd PlainNote</p>
+
+<p>xcodebuild -sdk iphonesimulator6.0</p>
+
+<p>vim Gemfile</p>
+
+<p>gem &ldquo;rest-client&rdquo;</p>
+
+<p>gem &ldquo;rspec&rdquo;</p>
+
+<p>gem &ldquo;selenium-webdriver&rdquo;</p>
+
+<p>gem &ldquo;cucumber&rdquo;</p>
+
+<p>gem &ldquo;rspec-expectations&rdquo;</p>
+
+<p>vim features/plain_note.feature</p>
+
+<p>可能会用到 brew install <a href="https://raw.github.com/Homebrew/homebrew-dupes/master/apple-gcc42.rb">https://raw.github.com/Homebrew/homebrew-dupes/master/apple-gcc42.rb</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[新工作]]></title>
