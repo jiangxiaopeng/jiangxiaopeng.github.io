@@ -4,7 +4,7 @@
   <title><![CDATA[姜晓的博客]]></title>
   <link href="http://jiangxiaopeng.github.io/atom.xml" rel="self"/>
   <link href="http://jiangxiaopeng.github.io/"/>
-  <updated>2014-07-11T13:16:32+08:00</updated>
+  <updated>2014-08-04T18:09:05+08:00</updated>
   <id>http://jiangxiaopeng.github.io/</id>
   <author>
     <name><![CDATA[姜晓]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA['Duplicate Symbol Error']]></title>
+    <link href="http://jiangxiaopeng.github.io/blog/2014/08/04/duplicate-symbol-error/"/>
+    <updated>2014-08-04T18:05:57+08:00</updated>
+    <id>http://jiangxiaopeng.github.io/blog/2014/08/04/duplicate-symbol-error</id>
+    <content type="html"><![CDATA[<p>2 Duplicate Symbol Error</p>
+
+<p>很低级的错误,可能是把.m 文件 当成.h 文件引入了。xcode 不会提示。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Appium Ios自动化测试]]></title>
