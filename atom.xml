@@ -4,7 +4,7 @@
   <title><![CDATA[姜晓的博客]]></title>
   <link href="http://jiangxiaopeng.github.io/atom.xml" rel="self"/>
   <link href="http://jiangxiaopeng.github.io/"/>
-  <updated>2014-08-04T18:09:05+08:00</updated>
+  <updated>2014-12-11T10:42:07+08:00</updated>
   <id>http://jiangxiaopeng.github.io/</id>
   <author>
     <name><![CDATA[姜晓]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA['Continuous Integration']]></title>
+    <link href="http://jiangxiaopeng.github.io/blog/2014/12/11/continuous-integration/"/>
+    <updated>2014-12-11T10:25:12+08:00</updated>
+    <id>http://jiangxiaopeng.github.io/blog/2014/12/11/continuous-integration</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA['Refactor']]></title>
+    <link href="http://jiangxiaopeng.github.io/blog/2014/08/21/refactor/"/>
+    <updated>2014-08-21T17:53:28+08:00</updated>
+    <id>http://jiangxiaopeng.github.io/blog/2014/08/21/refactor</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA['Duplicate Symbol Error']]></title>
