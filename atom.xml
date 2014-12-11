@@ -4,7 +4,7 @@
   <title><![CDATA[姜晓的博客]]></title>
   <link href="http://jiangxiaopeng.github.io/atom.xml" rel="self"/>
   <link href="http://jiangxiaopeng.github.io/"/>
-  <updated>2014-12-11T10:42:07+08:00</updated>
+  <updated>2014-12-11T13:12:20+08:00</updated>
   <id>http://jiangxiaopeng.github.io/</id>
   <author>
     <name><![CDATA[姜晓]]></name>
@@ -14,25 +14,19 @@
 
   
   <entry>
-    <title type="html"><![CDATA['Continuous Integration']]></title>
+    <title type="html"><![CDATA[continuous integration]]></title>
     <link href="http://jiangxiaopeng.github.io/blog/2014/12/11/continuous-integration/"/>
     <updated>2014-12-11T10:25:12+08:00</updated>
     <id>http://jiangxiaopeng.github.io/blog/2014/12/11/continuous-integration</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>VBoxManage list vms                                                   <br/>
+&ldquo;Yosemite&rdquo; {b08bc2ec-175b-46af-99dd-0566dd8bc4b9}</p>
+
+<p>vagrant package &mdash;base Yosemite  &mdash;output Yosemite.box</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA['Refactor']]></title>
-    <link href="http://jiangxiaopeng.github.io/blog/2014/08/21/refactor/"/>
-    <updated>2014-08-21T17:53:28+08:00</updated>
-    <id>http://jiangxiaopeng.github.io/blog/2014/08/21/refactor</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA['Duplicate Symbol Error']]></title>
+    <title type="html"><![CDATA[Duplicate Symbol Error]]></title>
     <link href="http://jiangxiaopeng.github.io/blog/2014/08/04/duplicate-symbol-error/"/>
     <updated>2014-08-04T18:05:57+08:00</updated>
     <id>http://jiangxiaopeng.github.io/blog/2014/08/04/duplicate-symbol-error</id>
@@ -43,7 +37,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Appium Ios自动化测试]]></title>
+    <title type="html"><![CDATA[appium ios自动化测试]]></title>
     <link href="http://jiangxiaopeng.github.io/blog/2014/06/20/appium/"/>
     <updated>2014-06-20T10:48:32+08:00</updated>
     <id>http://jiangxiaopeng.github.io/blog/2014/06/20/appium</id>

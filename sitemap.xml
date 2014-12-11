@@ -2,80 +2,80 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2013/12/13/my-first-blog/</loc>
-        <lastmod>2014-01-09T17:02:29+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>
             http://jiangxiaopeng.github.io/blog/2013/12/19/shi-yong-octopressda-jian-githubbo-ke/
         </loc>
-        <lastmod>2014-04-28T16:55:19+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2013/12/20/she-ying-ji-qiao/</loc>
-        <lastmod>2014-01-09T17:02:29+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2013/12/24/she-ying-ji-qiao-2/</loc>
-        <lastmod>2014-01-09T17:02:29+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2014/01/08/cocoapods/</loc>
-        <lastmod>2014-01-09T17:02:29+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2014/01/10/wei-bo-he-dou-ban-ce-bian-lan/</loc>
-        <lastmod>2014-01-10T14:52:14+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2014/01/16/ba-le-dai-hui-jia-2014/</loc>
-        <lastmod>2014-01-16T15:39:59+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2014/03/13/ge-ben-ha-gen-jian-fei/</loc>
-        <lastmod>2014-04-28T16:51:59+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2014/04/22/ios7-home/</loc>
-        <lastmod>2014-04-28T16:48:23+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2014/04/28/objective-c-literals/</loc>
-        <lastmod>2014-04-28T16:51:14+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2014/06/19/new-job/</loc>
-        <lastmod>2014-06-19T16:43:33+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2014/06/20/appium/</loc>
-        <lastmod>2014-06-20T11:41:07+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2014/08/04/duplicate-symbol-error/</loc>
-        <lastmod>2014-08-04T18:07:27+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://jiangxiaopeng.github.io/blog/2014/08/21/refactor/</loc>
-        <lastmod>2014-08-21T17:53:28+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/2014/12/11/continuous-integration/</loc>
-        <lastmod>2014-12-11T10:25:12+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jiangxiaopeng.github.io/404.html</loc>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/about/</loc>
-        <lastmod>2014-07-11T13:14:29+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jiangxiaopeng.github.io/arquivos/</loc>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/blog/archives/</loc>
-        <lastmod>2014-12-11T10:25:12+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://jiangxiaopeng.github.io/</loc>
-        <lastmod>2014-12-11T10:25:12+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://jiangxiaopeng.github.io/robots.txt</loc>
-        <lastmod>2014-01-09T16:12:51+08:00</lastmod>
+        <lastmod>2014-12-11T13:12:08+08:00</lastmod>
     </url>
 </urlset>
